@@ -9,6 +9,7 @@
     enabled: true
 
 - name: Permit traffic for samba service
+  become: true
   ansible.posix.firewalld:
     service: samba
     permanent: true
