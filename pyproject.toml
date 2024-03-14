@@ -30,3 +30,6 @@ dev = [
     "molecule",
     "molecule-plugins",
 ]
+
+[tool.pdm.scripts]
+install = "ansible-playbook ansi_colle.server.install"
