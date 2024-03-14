@@ -34,5 +34,5 @@
 - name: Samba role message
   ansible.builtin.debug:
     msg: |-
-      Setup completed.  Please create samba user using:
-        sudo smbpassword -a <user_name>
+      Setup completed.  Please use the following link to configure:
+      https://docs.fedoraproject.org/en-US/quick-docs/samba/
