@@ -38,5 +38,7 @@
 - name: Samba role message
   ansible.builtin.debug:
     msg: |-
-      Setup completed.  Please use the following link to configure:
+      Setup completed.  Please create a user and add it to group 'samba'.
+
+      Please use the following link to configure:
       https://docs.fedoraproject.org/en-US/quick-docs/samba/
