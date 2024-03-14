@@ -10,6 +10,10 @@
         - Enabled and start samba
         - Permit traffic for samba service
 
+    - name: Ensure group 'samba' exists
+      ansible.builtin.group:
+        name: samba
+
     - name: Create directory for samba sharing
       ansible.builtin.file:
         path: "{{ samba_dir }}"
