@@ -30,6 +30,4 @@ dev = [
     "molecule>=4.0",
     "molecule-plugins>=23.4",
     "ruff",
-    "ruff-lsp",
-    "black",
 ]
