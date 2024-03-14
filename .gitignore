@@ -9,9 +9,6 @@ TODO.md
 hosts
 env-vars.yml
 
-# antsibull-changelog
-.plugin-cache.yaml
-
 # python
 __pycache__
 .venv
